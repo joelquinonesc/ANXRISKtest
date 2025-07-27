@@ -9,7 +9,7 @@ st.title("ANXPHENOTYPE Prediction for Females")
 st.write("Enter the patient's information to predict the ANXPHENOTYPE.")
 
 # Define the file path to the saved model
-model_file_path = 'lr_model_female.joblib'
+model_file_path = 'xgb_model_combined.joblib'
 
 # Load the model with error handling
 model = None
